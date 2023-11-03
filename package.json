@@ -1,0 +1,17 @@
+{
+  "name": "cursosantiago",
+  "version": "1.0.0",
+  "description": "sections",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"error\" && exit 1",
+    "start": "nodemon.",
+    "dev:watch": "node --watch section3.js" 
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.8.9",
+    "nodemon": "^3.0.1"
+   }
+}
