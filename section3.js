@@ -1,31 +1,15 @@
+const { Console } = require("console")
 
-console.log('Inicio de programa')
+let grade=50
+let gradeLetter=String
 
-let isTired= false
+if (grade>=90) { gradeLetter= 'A'
+}  else if (grade>=80) gradeLetter='B'
+ else if (grade>=70) {gradeLetter='C'
+}  else if (grade>=60) {gradeLetter='D'
+}  else {gradeLetter='F'}
 
-//if (isTired) {
-//    console.log('tomar cafe')
-//} else { 
-//  console.log('tomar agua')}
-
-let grade;number = 55;
-if (grade >=60) { 
-  console.log ('el alumno aprueba la clase!')
-} else {
-   if( grade>= 50) { 
-    console,log('por favor estudie mas!')
-   } else {
-    console.log('el alumno no aprueba la clase')
-   }
-}
-
-
-
-
-
-
-
-console.log('Fin de programa') 
+console.log('la nota del alumno es:',gradeLetter)
 
 
 
